@@ -156,4 +156,70 @@ footer {
   background: #003a8c;
   border-color: #003a8c;
 }
+/* Produtos estilo Mercado Livre */
+.produtos-area {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.produtos-area h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.produtos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 18px;
+  padding: 10px;
+}
+
+.produto-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: 0.2s;
+}
+
+.produto-card:hover {
+  transform: translateY(-4px);
+}
+
+.produto-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.produto-card h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.price {
+  margin: 6px 0;
+  font-size: 18px;
+  font-weight: 800;
+  color: #0050c8;
+}
+
+.btn-buy {
+  display: inline-block;
+  background: #0050c8;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.btn-buy:hover {
+  background: #003a90;
+}
 
