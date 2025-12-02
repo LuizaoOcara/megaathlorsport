@@ -110,3 +110,50 @@ footer {
   object-fit: cover;
   border-radius: 8px;
 }
+/* Categorias estilo Mercado Livre */
+.categorias-area {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.categorias-area h2 {
+  margin-bottom: 12px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.categorias-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  padding: 10px;
+}
+
+.cat-card {
+  background: #ffffff;
+  padding: 18px 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-decoration: none;
+  color: #0050c8;
+  font-weight: bold;
+  border: 2px solid transparent;
+  transition: 0.2s;
+}
+
+.cat-card:hover {
+  border-color: #0050c8;
+  transform: translateY(-3px);
+}
+
+/* Card especial - Parcerias */
+.cat-parceria {
+  background: #0050c8;
+  color: white;
+}
+
+.cat-parceria:hover {
+  background: #003a8c;
+  border-color: #003a8c;
+}
+
