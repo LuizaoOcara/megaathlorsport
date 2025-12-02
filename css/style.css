@@ -1,0 +1,54 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cores da marca */
+:root {
+  --blue: #007BFF;
+  --dark: #2E2E2E;
+  --white: #ffffff;
+  --bg: #f8f9fb;
+}
+
+/* Corpo */
+body {
+  background: var(--bg);
+  color: var(--dark);
+}
+
+/* Header */
+header {
+  background: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+  background: #fff;
+  border-top: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
